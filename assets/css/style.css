@@ -87,6 +87,9 @@ p{
 @media screen and (max-width: 767px){
 	#yourScoreIs{
 		line-height: 1.5em;
-	}	
+	}
+	#wins, #losses, .wins-losses{
+		font-size: 1.5em;
+	}
 
 }
