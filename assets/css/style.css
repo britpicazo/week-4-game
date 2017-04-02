@@ -83,3 +83,10 @@ p{
     padding-bottom: 99999px;
 
 }
+
+@media screen and (max-width: 767px){
+	#yourScoreIs{
+		line-height: 1.5em;
+	}	
+
+}
