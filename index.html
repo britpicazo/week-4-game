@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>Dog Collector</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>DOG COLLECTOR</h1>
+		</div>
+
+		<div class="row center-block match-my-cols">
+			<div class="col-md-5 left">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>Here are four dogs. By clicking on a dog, you will add a specific amount of points to your total score.</p>
+				<p>You win by matching your total score to a random number. You lose if your total score goes above the random number.</p>
+				<p>The value of each dog is hidden from you until you click on it.</p>
+				<p>Each time the games starts, the game will change the value of each dog.</p>
+			</div>
+
+			<div class="col-md-7">
+				<div class="row match-my-cols">
+					<div class="col-xs-3" id="randomNum">--</div>
+					<div class="col-xs-6" id="yourScoreIs">
+						Your total score is:
+					</div>
+					<div class="col-xs-3" id="theirScore">--</div>
+				</div>
+
+				<div class="row text-center" id="result"></div>
+
+				
+				<div class="row match-my-cols">
+					<img id="button1" class="col-xs-3 pic" src="assets/images/karma.jpg" alt="karma the pit mix">
+					<img id="button2" class="col-xs-3 pic" src="assets/images/maebe.JPG" alt="maebe the chiweenie" />
+					<img id="button3" class="col-xs-3 pic" src="assets/images/parker.jpg" alt="parker the chihuahua" />
+					<img id="button4" class="col-xs-3 pic" src="assets/images/bj.JPG" alt="bj the vizsla" />	
+				</div>
+
+				<div class="row wins-losses match-my-cols">
+					<div class="col-xs-3 text-right">Wins:</div>
+					<div class="col-xs-3 text-left" id="wins">0</div>
+					<div class="col-xs-3 text-right">Losses:</div>
+					<div class="col-xs-3 text-left" id="losses">0</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
