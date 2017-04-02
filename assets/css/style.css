@@ -47,6 +47,10 @@ p{
 	font-size: 2em;
 }
 
+#theirScore{
+	font-size: 3em;
+}
+
 #randomNum{
 	text-align: center;
 	background-color: #444444;
