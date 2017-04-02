@@ -18,6 +18,7 @@ $(document).ready(function(){
 		theirScore = 0;
 		$("#randomNum").html(randomNum);
 		$("#theirScore").html(theirScore);
+
 	}
 
 	function getButtonValue(){
@@ -31,10 +32,14 @@ $(document).ready(function(){
 		}
 		if(theirScore > randomNum){
 			var over = theirScore - randomNum
-			$("#result").html("You went over by " +over+ " points! You lose!");
+			$("#result").html("You went over by " + over + " points! You lose!");
+			losses++;
+			$("#losses").html(losses);
 		}
 		else if(theirScore === randomNum){
 			$("#result").html("You win!");
+			wins++;
+			$("#wins").html(wins);
 		}
 		initialize();
 	}

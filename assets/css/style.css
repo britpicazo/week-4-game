@@ -51,7 +51,7 @@ p{
 	text-align: center;
 	background-color: #444444;
 	color: #ffffff;
-	font-size: 2em;
+	font-size: 3em;
 }
 
 #wins, #losses{
@@ -60,6 +60,7 @@ p{
 
 #yourScoreIs{
 	font-size: 1.5em;
+	line-height: 2.8em;
 }
 
 .row{
