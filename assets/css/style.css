@@ -91,5 +91,8 @@ p{
 	#wins, #losses, .wins-losses{
 		font-size: 1.5em;
 	}
+	#randomNum, #theirScore{
+		vertical-align: center;
+	}
 
 }
