@@ -18,5 +18,5 @@ https://britpicazo.github.io/week-4-game/
 
 * HTML5
 * CSS3
-* JavaScript
+* jQuery
 * Bootstrap
