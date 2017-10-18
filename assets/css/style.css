@@ -1,15 +1,10 @@
 body{
 	font-family: 'Special Elite', Verdana, Geneva, sans-serif;
 	color: #444444;
-	background-image: url(../images/knitting250px.png);
-    background-repeat: repeat;
-    background-position: left top;
-
+	background-color: #eeeeef;
 }
 
-
 .jumbotron{
-	background-color: #d5d9e0;
 	color: #444444;
 	font-family: 'Abril Fatface', "Times New Roman", serif;
 	margin-bottom: 10px;
@@ -17,9 +12,7 @@ body{
 	background-image: url(../images/squared_metal.png);
     background-repeat: repeat;
     background-position: left top;
-
 }
-
 
 h2{
 	font-family: 'Sigmar One', Verdana, Geneva, sans-serif;
@@ -28,7 +21,6 @@ h2{
 
 img{
 	border-radius: 6px;
-
 }
 
 p{
@@ -94,5 +86,4 @@ p{
 	#randomNum, #theirScore{
 		vertical-align: center;
 	}
-
 }

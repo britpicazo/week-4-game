@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	var gameStarted = false;
 	var randomNum;
 	var theirScore;
 	var wins = 0;
@@ -18,7 +18,6 @@ $(document).ready(function(){
 		theirScore = 0;
 		$("#randomNum").html(randomNum);
 		$("#theirScore").html(theirScore);
-
 	}
 
 	function getButtonValue(){
@@ -32,7 +31,7 @@ $(document).ready(function(){
 		}
 		if(theirScore > randomNum){
 			var over = theirScore - randomNum
-			$("#result").html("You went over by " + over + " points! You lose!");
+			$("#result").html("You went over by " + over + "! You lose!");
 			losses++;
 			$("#losses").html(losses);
 		}
@@ -65,4 +64,5 @@ $(document).ready(function(){
 	});
 
 	initialize();
+	gameStarted = true;
 });
